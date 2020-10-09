@@ -2,15 +2,15 @@ $(function(){
   
   
   $("#button01").on("click",function(){
-    $("#content").text("ここになにか入れたい文章など");
+    $("#content").text("ここになにか入れたい文章などあいうえお");
   })
 
   $("#button02").on("click",function(){
-    $("#content").html("<h2>htmlタグも使えるよ</h2>");
+    $("#content").html("<h2>htmlタグも使えるよlかきくけこ</h2>");
   })
 
   $("#button03").on("click",function(){
-    $("#content").append("<p>追加</p>");
+    $("#content").append("<p>追加さしすせそ</p>");
   })
 
   //ここからjavascriptの話
